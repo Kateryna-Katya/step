@@ -275,10 +275,16 @@ font-size: 24px;
 }
 }
 /* Заробіток буде зростати разом з досвідом */
-.invome-wrapper{
-    margin-top: 16px;
+.income-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+}
+.income-wrapper{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 16px;
 }
 .income{
@@ -291,6 +297,9 @@ font-size: 24px;
         align-items: center;
         justify-content: center;
         gap: 8px;
+            font-size: 18px;
+            line-height: 1.38889;
+            color: #4850ec;
 }
 .income-text{
     width: 228px;
@@ -299,7 +308,6 @@ font-size: 24px;
         color: #1d1d1d;
 }
 .income-list{
-    margin-top: 36px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -338,4 +346,69 @@ font-size: 24px;
 .income-item-last .income-title-item,
 .income-item-last .income-price{
 color: #fff;
+}
+.from{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+    .mob{
+        display: none;
+    }
+    .income-container{
+        gap: 0;
+    }
+.income-wrapper{
+    margin-top: 16px;
+}
+.income{
+    padding: 8px 12px;
+        width: 106px;
+}
+.income-img{
+    width: 24px;
+    height: 24px;
+}
+.income-text{
+    width: 473px;
+}
+.income-list{
+    flex-direction: row;
+    align-items: end;
+    margin-top: 48px;
+
+}
+.income-item{
+    border-radius: 36px;
+        padding: 36px;
+        width: 422px;
+        height: auto;
+        gap: 12px;
+}
+.income-title-item{
+    font-size: 38px;
+        line-height: 1.21053;
+}
+.income-price{
+    margin-top: 36px;
+  position: static;
+font-size: 50px;
+}
+.from{
+    display: inline;
+    font-family: "Mulish", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.38889;
+        color: #666;
+        padding-right: 10px;
+}
+.income-price-two{
+    margin-top: 114px;
+}
+.income-price-three{
+    margin-top: 178px;
+}
+.income-price-three .from{
+    color: #eaf3fc;
+}
 }
