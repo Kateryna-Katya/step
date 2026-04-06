@@ -712,8 +712,14 @@ background: #4850ec;
     padding-top: 72px;
     padding-bottom: 72px;
 }
+ .program-container-wrapper{
+        display: flex;
+            flex-direction: column;
+            gap: 72px;
+            align-items: center;
+            gap: 48px;
+ }
 .program-wrapper{
-    margin-top: 48px;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -822,14 +828,12 @@ gap: 12px;
 .program-item-big-wrapper{
     border-radius: 16px;
         padding: 8px 16px;
-max-width: 310px;
         height: auto;
         background: #f7f7f9;
 color: #1d1d1d;
 
 }
 .blue-program-wrap{
-    margin-top: 48px;
     border-radius: 24px;
         padding: 24px;
         width: 358px;
@@ -847,4 +851,70 @@ color: #1d1d1d;
 .program-item-big-wrapper-blue{
     font-weight: 700;
     color: #1d1d1d;
+}
+.program-link{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+        padding: 16px 24px;
+        width: 263px;
+        height: 60px;
+    background: #111217;
+    font-family: "Mulish", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.22222;
+        color: #fff;
+}
+@media only screen and (min-width: 1440px) {
+ .program-section{
+background: #fff;
+ }
+ .program-container{
+    padding-left: 60px;
+    padding-right: 60px;
+ }
+ .program-container-wrapper{
+    background: #f7f7f9;
+    border-radius: 72px;
+        padding: 120px 250px;
+        gap: 72px;
+ }
+ .program-wrapper{
+    flex-direction: row-reverse;
+    align-items: start;
+    gap: 24px;
+ }
+ .program-list-big{
+    width: 800px;
+ }
+ .program-item-big{
+width: 800px;
+ }
+ .program-item-big-title-wrapper{
+    display: flex;
+    justify-content: space-between;
+ }
+ .program-item-big-theme{
+   margin-top: 0;
+ }
+ .program-item-big-title{
+    font-size: 24px;
+ }
+ .program-item-big-wrapper{
+    font-size: 16px;
+    line-height: 1.5625;
+    margin-top: 24px;
+ }
+ .blue-program-wrap{
+    border-radius: 36px;
+        padding: 36px;
+        width: 1200px;
+ }
+ .blue-program-title{
+    font-size: 24px;
+ }
 }
