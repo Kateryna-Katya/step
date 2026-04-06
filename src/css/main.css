@@ -135,3 +135,31 @@ background: #e4dfff;
     height: 34px;
 }
 }
+/* Хто такий UX/UI дизайнер? */
+.who-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.who-title{
+    font-size: 28px;
+    line-height: 1.21429;
+    margin-bottom: 16px;
+}
+@media only screen and (min-width: 1440px) {
+ .who-container{
+    flex-direction: row;
+    justify-content: center;
+    gap: 36px;
+    align-items: start;
+ }
+ .who-wrapper{
+    width: 490px;
+ }
+ .who-title{
+    font-size: 38px;
+    line-height: 1.21053;
+    margin-bottom: 24px;
+ }
+}
