@@ -88,3 +88,50 @@ background: #e4dfff;
 .home-list-two{
     background: #bef541;
 }
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+  .home-container{
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .home-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 43px;
+    padding: 72px 120px;
+    justify-content: end;
+  }
+  .home-text-wrap{
+    width: 642px;
+  }
+  .home-title{
+    margin-top: 24px;
+    font-size: 50px;
+  }
+.home-text{
+    width: 602px;
+}
+.desk{
+    display: block;
+}
+.home-link{
+    height: 60px;
+}
+.home-list{
+    flex-direction: row;
+    justify-content: center;
+}
+.home-item{
+    padding: 24px;
+        width: 319px;
+        height: 145px;
+        flex-direction: column;
+        align-items: start;
+}
+.home-list-img{
+    width: 34px;
+    height: 34px;
+}
+}
