@@ -525,3 +525,61 @@ height: 440px;
     width: 358px;
  }
 }
+/* Справжній досвід та багато практики */
+.experience-title{
+    text-align: center;
+}
+.experience-text{
+margin-top: 16px;
+line-height: 1.22222;
+    text-align: center;
+    color: #3f4b5e;
+}
+.experience-wrapper{
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+.experience-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.exp-title{
+    font-size: 28px;
+        line-height: 1.21429;
+        color: #1d1d1d;
+        margin-bottom: 16px;
+}
+.exp-list{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    list-style-type: disc;
+    margin-bottom: 30px;
+}
+@media only screen and (min-width: 1440px) {
+ .experience-title{
+    margin-bottom: 24px;
+ }
+ .experience-wrapper{
+    margin-top: 120px;
+    gap: 120px;
+    align-items: center;
+ }
+ .experience-content{
+    flex-direction: row-reverse;
+    gap: 36px;
+ }
+ .exp-wrap{
+    width: 484px;
+ }
+ .exp-title{
+    font-size: 38px;
+    line-height: 1.21053;
+ }
+ .experience-content-two{
+    flex-direction: row;
+ }
+}
