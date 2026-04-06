@@ -1007,6 +1007,7 @@ background-image: url("/img/do/four-desk.png");
 }
 .cost-container{
     padding-top: 72px;
+    padding-bottom: 72px;
 }
 .cost-title{
     line-height: 1.05556;
@@ -1186,4 +1187,66 @@ font-family: "Mulish", sans-serif;
     flex-direction: column;
     gap: 16px;
     align-items: center;
+}
+@media only screen and (min-width: 1440px) {
+.cost-section{
+    background-color: #fff;
+}
+.cost-wrapper{
+    background: #111217;
+    border-radius: 72px;
+        padding: 120px 250px;
+}
+.prise-wrap{
+    margin-top: 72px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    align-items: start;
+}
+.course-card{
+    border-radius: 36px;
+        padding: 36px 36px 48px;
+        width: 638px;
+        height: 600px;
+}
+.contact-form.purple{
+    border-radius: 36px;
+        padding: 36px;
+        width: 472px;
+        height:560px;
+}
+.cost-container{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.btn{
+    width: 100%;
+
+}
+.cost-form-title{
+    text-align: left;
+}
+.form-subtitle{
+    font-size: 16px;
+  text-align: left;
+}
+.btn.dark{
+border-radius: 16px;
+    padding: 16px 36px;
+    width: 400px;
+    height: 60px;
+}
+.course-title{
+    margin-bottom: 24px;
+    font-size: 32px;
+}
+.label{
+    margin-top: 24px;
+    padding-top: 24px;
+    margin-bottom: 16px;
+}
+.course-btn{
+    margin-top: 24px;
+}
 }
