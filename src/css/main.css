@@ -412,3 +412,116 @@ font-size: 50px;
     color: #eaf3fc;
 }
 }
+/* AI,
+як робочий інструмент сучасного дизайнера */
+.ai-section{
+    background: #111217;
+}
+.ai-title{
+    color: #fff;
+}
+.ai-list{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.ai-item{
+    border-radius: 24px;
+        padding: 24px;
+        width: 358px;
+        height: 465px;
+}
+.ai-item-one{
+    background-image: url("/img/ai/mob-one.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.ai-item-title-one{
+        font-size: 24px;
+        line-height: 1.20833;
+        color: #fff;
+}
+.ai-item-wrapper-one{
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Mulish", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.375;
+        color: #f7f7f9;
+}
+.ai-item-two{
+    background-image: url("/img/ai/mob-two.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    font-weight: 500;
+    color: #1d1d1d;
+}
+.ai-item-title-two{
+    font-family: "Mulish", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #1d1d1d;
+        margin-bottom: 16px;
+}
+.ai-container{
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+@media only screen and (min-width: 1440px) {
+ .ai-section{
+    background-color: #fff;
+ }
+ .ai-container{
+    padding-left: 60px;
+    padding-right: 60px;
+ }
+ .ai-wrapper{
+    background: #111217;
+    border-radius: 72px;
+    border-radius: 72px;
+        padding: 120px 250px;
+ }
+ .ai-list{
+    margin-top: 72px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+ }
+ .ai-item{
+    border-radius: 36px;
+        padding: 36px;
+        width: 642px;
+        height: 416px;
+ }
+ .ai-item-one{
+    background-image: url("/img/ai/desk-one.png");
+ }
+ .ai-item-title-one{
+    font-size: 32px;
+ }
+ .ai-item-wrapper-one{
+    width: 380px;
+    font-size: 18px;
+    margin-top: 16px;
+    line-height: 1.38889;
+ }
+ .ai-item-two{
+background-image: url("/img/ai/desk-two.png");
+height: 440px;
+ }
+ .ai-item-title-two{
+    font-size: 24px;
+    width: 358px;
+ }
+ .ai-item-two-text{
+    width: 358px;
+ }
+}
