@@ -678,7 +678,7 @@ background: #4850ec;
    background-image: none;
  }
  .contact-container{
-        padding: 60px 130px;
+        padding: 60px 310px;
  }
  .contact-wrapper{
     background-image: url("/img/contact/desk.png");
@@ -917,4 +917,47 @@ width: 800px;
  .blue-program-title{
     font-size: 24px;
  }
+}
+/* Зробимо так,
+щоб вас хотіли взяти на роботу */
+.do-title{
+    text-align: center;
+}
+.do-list{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.do-item{
+border-radius: 24px;
+    padding: 24px;
+    width: 358px;
+    height: 411px;
+    background: #f7f7f9;
+    background-image: url("/img/do/one-mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+   background-size: 100% 60%;
+}
+.do-item-two{
+    height: 433px;
+background-image: url("/img/do/two-mob.png");
+background-size: 100% 70%;
+}
+.do-item-three{
+    height: 461px;
+background-image: url("/img/do/three-mob.png");
+background-size: 96% 66%;
+}
+.do-item-four{
+    height: 530px;
+background-image: url("/img/do/four-mob.png");
+background-size: 100% 66%;}
+.do-item-title{
+    font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #1d1d1d;
+    margin-bottom: 8px;
 }
