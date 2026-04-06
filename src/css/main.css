@@ -704,3 +704,78 @@ background: #4850ec;
     margin-bottom: 0;
  }
 }
+/* Програма курсу */
+.program-wrapper{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.program-list{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+width: 358px;
+}
+.program-item{
+    border-radius: 24px;
+        padding: 112px 24px 24px;
+        width: 171px;
+        height: 227px;
+        background-image: url("/img/program/one.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+}
+.program-number{
+        font-weight: 700;
+        font-size: 66px;
+        line-height: 0.90909;
+        color: #fff;
+}
+.program-text{
+    margin-top: 8px;
+    line-height: 1.4375;
+        color: #fff;
+}
+.program-item-two{
+    background: #bef541;
+    border-radius: 24px;
+        padding: 24px;
+        width: 171px;
+        height: 227px;
+}
+.program-item-two-img{
+margin-top: -40px;
+margin-left: -40px;
+}
+.program-item-two-number{
+        font-weight: 700;
+        font-size: 66px;
+        line-height: 0.90909;
+        color: #1d1d1d;
+}
+.program-item-two-text{
+    margin-top: 8px;
+    line-height: 1.4375;
+        color: #1d1d1d;
+}
+.program-item-three{
+    border-radius: 24px;
+        padding: 24px;
+        width: 358px;
+        height: 182px;
+background: #111217;
+}
+.program-item-three-text{
+    color: #fff;
+    margin-bottom: 12px;
+}
+.program-item-three-list{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-left: 20px;
+    list-style-type: disc;
+    color: #fff;
+}
