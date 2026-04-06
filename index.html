@@ -2,55 +2,51 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/test/favicon.svg" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/test/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/test/assets/styles-X9THPhCB.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Wix+Madefor+Display:wght@400..800&display=swap"
+        rel="stylesheet">
+    <title>Курс UX/UI
+    дизайнера</title>
+    <script type="module" crossorigin src="/step/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/step/assets/index-Cushfmcp.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container home-container">
+        <div class="home-wrapper">
+            <div class="home-text-wrap">
+            <div class="home-label">
+                <p>Професія в IT з нуля за 7 місяців</p>
+            </div>
+        <h1 class="home-title">Курс UX/UI<br/>
+        дизайнера</h1>
+        <p class="home-text">Ви навчитесь проєктувати зручні інтерфейси та їх дизайн та отримаєте повну підготовку до роботи  UX/UI-дизайнером.</p>
+        <a class="home-link" href="#">
+            <p>Записатися</p>
+        </a>
+    </div>
+          <picture>
+                <source srcset="/step/assets/desk-CtDAcwRk.png 1x, /step/assets/desk@2x-DRtS5FFZ.png 2x" media="(min-width: 1440px)" />
+                <source srcset="/step/assets/mob-NGAcvEPf.png 1x, /step/assets/mob@2x-CZ7tnw6e.png 2x" media="(max-width: 1439px)" />
+                <img class="home-img" src="/step/assets/mob-NGAcvEPf.png" alt="phones" loading="lazy" />
+            </picture>
+</div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
