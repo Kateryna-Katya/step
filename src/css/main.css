@@ -274,3 +274,68 @@ font-size: 24px;
     font-weight: 600;
 }
 }
+/* Заробіток буде зростати разом з досвідом */
+.invome-wrapper{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.income{
+    border-radius: 16px;
+        padding: 8px 12px;
+        width: 114px;
+        height: 48px;
+        background: #eaf3fc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+}
+.income-text{
+    width: 228px;
+    font-size: 14px;
+        line-height: 1.42857;
+        color: #1d1d1d;
+}
+.income-list{
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.income-item{
+    border-radius: 24px;
+        padding: 24px;
+        width: 358px;
+        height: auto;
+        background: #f7f7f9;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+}
+.income-title-item{
+    font-weight: 700;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #1d1d1d;
+}
+.income-price{
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 1.21429;
+        color: #1d1d1d;
+        position: absolute;
+        top: 24px;
+        right: 24px;
+}
+.income-item-last{
+    background: #4850ec;
+    color: #fff;
+}
+.income-item-last .income-title-item,
+.income-item-last .income-price{
+color: #fff;
+}
