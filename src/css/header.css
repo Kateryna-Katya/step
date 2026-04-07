@@ -1,44 +1,123 @@
 .header {
-  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 100;
+  border-bottom: 1px solid #eee;
+    height: 72px;
 }
-.nav {
+
+.header-container {
   display: flex;
-  justify-content: space-between;
-}
-.nav-logo {
-  display: inline-flex;
   align-items: center;
+  justify-content: space-between;
+
+
+}
+
+.header-logo img {
+  height: 40px;
+}
+
+/* NAV */
+.nav {
+  flex: 1;
+  display: flex;
   justify-content: center;
 }
-.nav-list {
+
+.navigation-list {
+  display: flex;
+  gap: 28px;
+}
+
+.links {
+  font-size: 14px;
+  color: #111;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.links:hover {
+  color: #5b5ce2;
+}
+
+.links.active {
+  background: #5b5ce2;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+/* RIGHT SIDE */
+.header-actions {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  gap: 16px;
 }
-.nav-link {
-  position: relative;
-  display: block;
+
+.lang {
+  font-size: 14px;
+  color: #555;
+}
+
+.lang span {
+  margin-left: 6px;
+}
+
+/* PHONE BUTTON */
+.phone-btn {
+  background: #5b5ce2;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  text-decoration: none;
   font-weight: 500;
-  letter-spacing: 0.02em;
-  transition: 200ms ease-in;
 }
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+
+/* BURGER */
+.menu-button {
+  display: none;
+  background: none;
+  border: none;
 }
-.nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%) translateY(100%);
-  width: 110%;
-  height: 4px;
-  border-radius: 4px;
-  transform-origin: center;
-  animation: stretch 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 200ms both;
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .nav,
+  .header-actions {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
 }
-.nav-link.active::after {
-  background: #747bff;
+
+/* MOBILE MENU */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: #fff;
+  display: none;
+  padding: 40px 20px;
+}
+
+.modal.active {
+  display: block;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.menu-list-item {
+  font-size: 18px;
+  text-decoration: none;
+  color: #111;
 }
