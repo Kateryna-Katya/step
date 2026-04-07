@@ -1,12 +1,9 @@
 .footer {
-  background: #0b0f1a;
-  color: #fff;
-  font-family: sans-serif;
+background: #111217;
 }
-.container{
-  padding-top: 0;
-}
+
 .footer-container{
+  padding-top: 0;
   display: flex;
   flex-direction: column;
 }
@@ -28,7 +25,7 @@
 .footer__socials {
   margin: 12px 0;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   gap: 10px;
 }
 
@@ -45,20 +42,43 @@
 
 .footer__links {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   margin: 20px 0;
   font-size: 12px;
 }
 
 .footer__links h4 {
+  padding-bottom: 8px;
+  border-bottom: 0.50px solid rgba(255, 255, 255, 0.5);
+font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+
+  line-height: 1.07143;
+  color: #fff;
+  width: 100%;
   font-size: 13px;
   margin-bottom: 8px;
+  margin-top: 20px;
 }
-
-.footer__links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.study-links{
+  font-family: "Mulish", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    opacity: 0.75;
+    color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 150px;
+gap: 8px;
+}
+.study-links li{
+  width: 170px;
+}
+.study-links-two{
+  height: 90px;
 }
 
 .footer__links li {
@@ -66,16 +86,29 @@
   opacity: 0.7;
 }
 
-.footer__contacts {
-  border-top: 1px solid #1f2a3a;
-  padding-top: 12px;
+.footer__contacts p {
+font-family: "Wix Madefor Display", sans-serif;
+  font-weight: 400;
   font-size: 12px;
+
+  line-height: 1.4;
+  color: #fff;
+  opacity: 0.75;
+margin-top: 8px;
+margin-bottom: 12px;
+
 }
 
 .phones {
   display: flex;
-  justify-content: space-between;
-  margin-top: 6px;
+ flex-direction: column;
+font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #fff;
+  height: 44px;
+  flex-wrap: wrap;
 }
 
 .footer__btn {
@@ -90,8 +123,14 @@
 }
 
 .footer__messengers {
-  text-align: center;
-  font-size: 12px;
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.57143;
+  color: #fff;
 }
 
 .footer__messengers div {
@@ -122,6 +161,39 @@
 .footer__bottom {
   margin-top: 16px;
   text-align: center;
+font-family: "Mulish", sans-serif;
+  font-weight: 400;
   font-size: 11px;
-  opacity: 0.5;
+  text-align: center;
+  color: #9097a2;
+  padding-top: 8px;
+    border-top: 0.50px solid rgba(255, 255, 255, 0.4);
+}
+@media only screen and (min-width: 1440px) {
+.footer-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.footer__links{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.study-links li {
+  width: 130px;
+  font-size: 14px;
+}
+.study-links-two {
+  height: 120px;
+}
+.footer__top {
+  text-align: start;
+  width: 200px;
+}
+.footer__links h4{
+  width: 294px;
+}
 }
